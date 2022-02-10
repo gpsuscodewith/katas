@@ -85,6 +85,3 @@ Prescriptive means you describe exactly what should be done, without ambiguity i
 
 Should I include screenshots?
 Maybe. Sometimes a GUI-based task might require it, but typically you should describe the action in each step enough to where the person
-
-What type of processes to target
-![image](https://user-images.githubusercontent.com/2601476/153460719-9cbe2eb2-daa4-48e8-a3d4-bf12795538a4.png)
