@@ -38,7 +38,6 @@ Configure the thing
 
 [Update this section with any appropriate kata reflections highlighted from attending a kata session]
 
-
 ### Feedback
 
 [Update this section with any feedback on this kata]

@@ -13,7 +13,7 @@
 
 ### Prerequisites
 
- * None
+* None
 
 ### Steps
 
