@@ -13,8 +13,7 @@
 
 ### Prerequisites
 
- * Web Browser
- * Download software from: [https://someurl/software](https://someurl/software)
+ * None
 
 ### Steps
 
@@ -37,8 +36,6 @@ Reflect (example questions)
 
 ### Reflections
 
-Session 2 
-
 * Unknown to a lot of things from the scenario and would require PTS
 * Skipped sharepoint list
 * Survey, sliders (duration) unit of numbers, slider for resources but slider didn't move
@@ -48,7 +45,7 @@ Session 2
 * Survey: the explanation boxes were overwhelming
 * Question alignment
 
-Session 2 Feedback
+### Feedback
 
 * Good potential: questions weren't overwhelming, low burden
 * Questions like "when is this going to be on Azure" were to the point
