@@ -13,8 +13,7 @@
 
 ### Prerequisites
 
- * Web Browser
- * Download software from: [https://someurl/software](https://someurl/software)
+* None
 
 ### Steps
 
