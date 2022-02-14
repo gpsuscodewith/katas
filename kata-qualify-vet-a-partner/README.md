@@ -20,9 +20,9 @@
 Configure the thing
 1. First, find and navigate to the vetting questions on SharePoint (source of truth)
 2. Note the structure of the questions list. (The list shouldn't be modified or edited. Treat it as read-only)
-3. Get link to vetting tool [http://aka.ms/gpscodewithvet] (http://aka.ms/gpscodewithvet) and launch it
+3. Get link to vetting tool [http://aka.ms/gpscodewithvet](http://aka.ms/gpscodewithvet) and launch it
 4. Bookmark the vetting tool
-5. Open [partner scenario] (https://microsoft.sharepoint.com/:w:/t/OCPCodewithAlphaTeam/EZ0X_Lg_2B9Eigmg0Z_UyK0BVSiavTEF7p9tOY5tRlQMQg?e=ueCLIR)
+5. Open [partner scenario](https://microsoft.sharepoint.com/:w:/t/OCPCodewithAlphaTeam/EZ0X_Lg_2B9Eigmg0Z_UyK0BVSiavTEF7p9tOY5tRlQMQg?e=ueCLIR)
 6. Based on scenario, answer each question up to the time limit
 7. Submit questions
 8. Stop
