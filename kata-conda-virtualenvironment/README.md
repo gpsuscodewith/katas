@@ -49,8 +49,15 @@
 
 ### Reflections
 
-[Update this section with any appropriate kata reflections highlighted from attending a kata session]
+Reflections from the team:
+smooth, no issues on mac
+like the fact being exporting to YAML files which adds more firepower
+Wary of the Anaconda distribution is a memory hog
+
 
 ### Feedback
 
-[Update this section with any feedback on this kata]
+Some computers will  lag when installing package managers so go with a lighter package
+Some issues with the pip freeze
+perhaps put a command to upgrade pip
+
