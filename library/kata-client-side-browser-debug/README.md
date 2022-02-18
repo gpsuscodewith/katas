@@ -63,7 +63,7 @@ Chrome or Edge Web Browser (others may have similar features and you could attem
 ![Screenshot of the Top Left of Console Window](image2.png)
 7. If you now move your mouse around the actual webpage above the developer console you will see as you hover on things it highlights them, the things it highlights may or may not even be visible to you or an area may be bigger. This is due to you actually navigating the individual Document Model elements associated with that area of the page.
 8. Click on the text input box for the bing search, you should see something similar to the image below when you hover over it, when it matches click it.
-~[Screenshot of textbox selection](image4.png)
+![Screenshot of textbox selection](image4.png)
 9. The Elements tab below will now show you the element code for what we selected
    - Note: when clicking on an element like we just did, element selection mode will have turned off, selecting another element from the page above the developer console will require you hit the button again (we don't want to now, I just wanted to highlight that)
 10.  You will see a property in the selected element named *maxlength* which is set to "1000", double click on the 1000 (between the quotes) and then type 1 to replace the selected 1000 text and hit enter.
