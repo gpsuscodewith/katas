@@ -70,11 +70,25 @@ Chrome or Edge Web Browser (others may have similar features and you could attem
 11. Now click inside the search box in the webpage above the developer console and try and type something, you will not be able to type anything other than 1 character.
 12. Finally note that you can highlight elements in the html inside the elements tab on the webpage by simply moving over a new element with your mouse or cursor. Move over the element ```<div> class="mic_cont icon">``` element to observe the microphone icon in the browser window above highlight when you do so.
 
+
+### Removing elements
+
+1. Once again click on the automatic element selector icon to the left of the mobile tablet view button we clicked previously.
+2. This time move your mouse above the Microsoft Logo at the bottom of the web page, you will see a shaded area appear for the whole width of the page above the black bar with the Microsoft Logo in it. Click on this transparent blue area to select it.
+3. Once you have you will see a div selected in the Element window named **msbLogo**.
+4. Click on that line in the Elements window and then hit the delete key.
+5. Take note of how the additional overlayed information disappeared in the browser.
+
+
 ### Try using the Styles, Computed and Properties tabs
 
 1. To the right of the Elements tab when it is selected, you can observe a window which allows you to alter and view every property (both computed and design time) for the selected element (as well as other debugging tools such as the event listeners associated with controls on the page, we'll cover these and debugging the actual code in a future part of this series.
 2. Explore the Styles tab and observe how different styles are applied on different CSS classes and elements, this often causes confusion in design time as you can't see inherited styles as easily as you can through the debugger. This will be extremely useful in identifying CSS issues.
+3. Here is a screenshot of something similar to what you will see
 
 
 
+### Close the Developer Console
+
+1. To close the developer console and return to your normal browser simply click the X on the top right of the Developer Console or Press CTRL-Shift-I again
 
