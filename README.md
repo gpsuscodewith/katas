@@ -19,15 +19,20 @@ For example, say you want to define a sequence of steps to create a build pipeli
 > - Create an Azure DevOps pipeline that builds a Docker image from a Dockerfile
 
 ### A KATA
-- Steps are specific and logically sequential
-- Targets a specific task
+- Steps are specific and directed
+- Actions avoid ambiguity
+- logically sequenced (no jumping around)
+- Targets a specific, small behavior to practice
 - A single tool is used to execute the specific steps
-- The "answers" are always given for what to execute
+- The "answers" are given to the participant
 
 ### NOT A KATA
-- Open ended to the participant
-- Choose your own adventure
-- The participant must "look up the answer" to accomplish a step
+- Open ended to the participant, not directed
+- Filled with "choose your own adventure" options
+- Consistently delivers a "variable" experience (undirected solution)
+- A walkthrough, tutorial
+- The participant is constantly "looking up the answer"
+- Longer in duration than 15 minutes for the "average person coming in cold"  
 
 ## Building a Kata
 
