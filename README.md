@@ -81,8 +81,8 @@ Use a timer and hold the session to strict time boxes. Remember, while the purpo
 
 ## FAQs
 
-What does prescriptive look like?
+### What does prescriptive look like?
 Prescriptive means you describe exactly what should be done, without ambiguity in the execution of the step(s). For example, if the Kata is focused on creating a Dockerfile, the creation of the Dockerfile could be done many different ways: within a particular IDE, the command line, etc. The step should describe an exact way of doing it. If the desire is to have participants master many different ways, then separate Katas should be created. 
 
-Should I include screenshots?
+### Should I include screenshots?
 Maybe. Sometimes a GUI-based task might require it, but typically you should describe the action in each step enough to where the person
