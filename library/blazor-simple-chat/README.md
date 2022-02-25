@@ -1,7 +1,7 @@
 <h1 align="center">Blazor Simple Chat App</h1>
 
-###$ Duration: 10 Minutes
-#### Participation target: Individual
+**Duration**: 10 Minutes
+**Participation target**: Individual
 
 ### Prerequisites
 
