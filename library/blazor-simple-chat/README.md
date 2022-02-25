@@ -1,7 +1,9 @@
 <h1 align="center">Blazor Simple Chat App</h1>
 
 **Duration**: 10 Minutes <br />
-**Participation target**: Individual
+**Participation target**: Individual <br />
+
+**Goal**: Get exposure to Blazor and see how a Server hosted Blazor app is structured and runs
 
 ### Prerequisites
 
