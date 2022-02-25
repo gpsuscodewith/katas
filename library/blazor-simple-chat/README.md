@@ -23,7 +23,8 @@ The CLI version must be 6 for you to continue.
 2. Unzip the the file on your local machine in your Downloads folder
 3. Open a terminal and change the directory to source code
    ```
-   cd ~/Downloads/BlazorChatApp
+   # the name of the folder could be different than 'blazor-simple-chat' depending on your OS
+   cd ~/Downloads/blazor-simple-chat
    ```
 4. Build the source
    ```
