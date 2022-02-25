@@ -10,9 +10,9 @@
 
 ## Steps
 
-### [Step Section] 
-1. [Specific step]
-2. [Specific step]
+### Download Source Code
+1. Click the download link to download the file: [Download Source Code](https://github.com/gpsuscodewith/katas/raw/main/library/blazor-simple-chat/files/blazor-simple-chat.zip)
+2. 
 
 ### [Step Section Example] 
 1. **Fork** this katas repo here: [https://github.com/gpsuscodewith/katas/my-kata-project](https://github.com/gpsuscodewith/katas/my-kata-project)
