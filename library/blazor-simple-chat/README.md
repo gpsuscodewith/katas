@@ -70,7 +70,7 @@ The CLI version must be 6 for you to continue.
 8. Copy the URL printed in the terminal
 9. Open 2 browser instances and paste the URL into both windows / tabs
 9. Enter a unique name in the text box and click Connect. Repeat this step for the 2nd instance
-10. You will now see the name appear 
+10. Names will now appear for each message!
 
 ### Reflections
 
