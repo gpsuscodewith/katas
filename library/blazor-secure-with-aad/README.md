@@ -79,3 +79,23 @@ The CLI version must be 6 for you to continue.
  8. You should be prompted to sign in, once signed in, your name will displayed from the authentication claim next to the Log Out button.
 
 END
+
+
+### Reflect
+
+ - When and why would you use this for a partner project?
+ - What are the advantages of having the ServerAPI run as a seperate application in AAD?
+ - When wouldn't you be able to use Azure AAD authentication between a Blazor Client and Server API?
+
+
+### Take home material for reflection
+ - [Great short video on advantages of AzureAAD with Blazor WebAssembly](https://www.youtube.com/watch?v=Ap-9CovBbBM)
+ - [Full stand-alone WASM with Azure AAD Tutorial, includes great common errors section](https://docs.microsoft.com/en-us/aspnet/core/blazor/security/webassembly/standalone-with-azure-active-directory?view=aspnetcore-6.0)
+
+
+### Reflections
+[Update this section with post-session from the kata session participants]
+
+
+### Feedback
+[Update this section with any feedback on this kata]
