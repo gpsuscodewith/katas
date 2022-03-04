@@ -52,7 +52,7 @@ Next step is to define the actual experiment we want to run on our VM--a tempora
 7. From the Faults menu, select 'VM Shutdown'.
 8. Advance to the next screen by clicking **Next: Target resources >**.
 9. Select your newly created VM and hit **Add**.
-10. Finally, create the experiment by clicking **Review + Create** then **Create**. 
+10. Finally, create the experiment by clicking **Review + Create** then **Create**. You may continue to the next step.
 
 ### Give your experiment VM access
 Chaos Studio need contributor access to our machine in order to perform the shutdown, so we will grant it that access.
