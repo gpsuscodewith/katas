@@ -10,7 +10,7 @@
 
 ## Steps
 
-The whole Kata will be completed via the Azure Portal. Begin by navigating [here](portal.azure.com) and signing in.
+The whole Kata will be completed via the Azure Portal. Begin by navigating [here](https://portal.azure.com) and signing in.
 
 ### Create a Virtual Machine
 We first need to create a Virtual Machine which we will run a Chaos Experiment on (in our case, a temporary shutdown).
