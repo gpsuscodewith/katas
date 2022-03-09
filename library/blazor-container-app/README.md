@@ -146,7 +146,13 @@ END
  - When and why would you use this for local development? Is this easier or more difficult than using a local kubernetes instance?
 
 ### Reflections
-[Update this section with post-session from the kata session participants]
+* Interesting local dev scenario possibilities, especially with the automatic Log Analytics integration.
+* Creating Dockerfile through VS Code extension will help accelerate the move to a container.
+* This kata would be good to send to partners for them to get ramped up quickly.
 
 ### Feedback
-[Update this section with any feedback on this kata]
+* Kata layout was good, commands straightforward.
+* Liked the use of CLI instead of the GUI
+* The command to get the ACR password didn't work, needed to use double quotes
+* While everything finished successfully, browsing to the site didn't work for one participant, although Log Analytics showed traffic.
+* Instead of letting participants choose an app during prerequisites, provide a basic app for download so all are at the same starting point.
