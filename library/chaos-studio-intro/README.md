@@ -10,7 +10,7 @@
 
 ## Steps
 
-The whole Kata will be completed via the Azure Portal. Begin by navigating [here](portal.azure.com) and signing in.
+The whole Kata will be completed via the Azure Portal. Begin by navigating [here](https://portal.azure.com) and signing in.
 
 ### Create a Virtual Machine
 We first need to create a Virtual Machine which we will run a Chaos Experiment on (in our case, a temporary shutdown).
@@ -45,7 +45,7 @@ Next step is to define the actual experiment we want to run on our VM--a tempora
 1. Search again for 'Chaos Studio' and navigate to the resource.
 2. Select **Experiments** from the left menu bar.
 3. At the top left, click **Create** to create a new Experiment.
-4. Enter a name for the experiment such as 'ChaosTestExperiment'. Then advance to the **Experiment designer** screen.
+4. Enter a UNIQUE name for the experiment such as 'ChaosTestExperiment-{your-alias}'. Then advance to the **Experiment designer** screen.
 5. Rename the Step and Branch if you prefer, or leave the defaults.
 6. Select, **Add action** and then
 **Add fault**.
