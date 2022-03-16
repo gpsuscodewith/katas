@@ -81,17 +81,4 @@ The CLI version must be 6 for you to continue.
 
 ### Reflect
 
- - When and why would you use this for a partner project?
- - When and why would you use this for local development? Is this easier or more difficult than using a local kubernetes instance?
-
-### Reflections
-* Interesting local dev scenario possibilities, especially with the automatic Log Analytics integration.
-* Creating Dockerfile through VS Code extension will help accelerate the move to a container.
-* This kata would be good to send to partners for them to get ramped up quickly.
-
-### Feedback
-* Kata layout was good, commands straightforward.
-* Liked the use of CLI instead of the GUI
-* The command to get the ACR password didn't work, needed to use double quotes
-* While everything finished successfully, browsing to the site didn't work for one participant, although Log Analytics showed traffic.
-* Instead of letting participants choose an app during prerequisites, provide a basic app for download so all are at the same starting point.
+#### Feedback
