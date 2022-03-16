@@ -1,4 +1,4 @@
-<h1 align="center">Host a Blazor App in Azure Container Apps</h1>
+<h1 align="center">Send an SMS with Azure Communication Services</h1>
 
 **Duration**: 10 Minutes <br />
 **Participation target**: Individual <br />
