@@ -1,0 +1,15 @@
+{
+  "name": "sms-with-communication-services",
+  "version": "1.0.0",
+  "description": "Send and SMS with azure communication services",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/communication-sms": "^1.0.0"
+  }
+}
