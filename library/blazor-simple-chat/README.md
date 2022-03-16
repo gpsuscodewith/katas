@@ -53,7 +53,7 @@ The CLI version must be 6 for you to continue.
 2. Expand the Client folder and look at Index.razor file more closely in the editor
 3. Expand the Server folder and notice this is a standard asp.net core backend. 
 4. Open Program.cs file to see this.
-   > This is a Server hosted Blazor app. All UI Updates are driven by the server through internal SignalR communication from the web assembly client to the backend server
+   > REMARKS: This is a Server hosted Blazor app. All UI Updates are driven by the server through internal SignalR communication from the web assembly client to the backend server
 
 ### Add user information to the chat
 1. Launch Visual Studio Code locally
