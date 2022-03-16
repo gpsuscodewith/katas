@@ -1,6 +1,6 @@
 <h1 align="center">Send an SMS with Azure Communication Services</h1>
 
-**Duration**: 10 Minutes <br />
+**Duration**: 8 Minutes <br />
 **Participation target**: Individual <br />
 
 **Goal**: Create a communication service and send an SMS message to yourself
