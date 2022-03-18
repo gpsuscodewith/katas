@@ -1,6 +1,6 @@
-<h1 align="center">Execute a Load Test in Azure Load Testing</h1>
+<h1 align="center">Execute a JMeter Load Test Using Azure Load Testing</h1>
 
-**Duration**: 10 Minutes <br />
+**Duration**: 7 Minutes <br />
 **Participation target**: Individual <br />
 
 **Goal**: Create a Load Testing service with a test plan and execute it.
