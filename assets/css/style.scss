@@ -3,9 +3,11 @@
 
 @import "";
 
+// theme base https://github.com/jasonlong/cayman-theme/blob/main/scss/cayman.scss
+
 $section-headings-color: #333;
 
-.main-content > h1:first-child
+.main-content h1:first-child
 {
     text-align: left;
 }
