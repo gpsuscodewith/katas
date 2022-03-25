@@ -57,7 +57,7 @@ Install Fiddler Everywhere on your operating system (skip to the 'Setting up Fid
    - Now click on the play icon on the Rule in the Rules tab, this will rerun the rule for previous requests.
    6. Click on the filter icon again, now let's make our filter a bit more generic, Change the Host condition so it reads **Status is equal to 200** and click on APPLY. If you don't have many results, you are likely using the sandboxed browser, so browse to a few different sites and observe how you will be able to immediately see http vs https requests in the results. Click Remove All to clear existing traffic when you are done.
 
-### Examing Traffic in Fiddler (5 minutes)
+### Examining Traffic in Fiddler (5 minutes)
 
    1. Browse to **www.msn.com** in a browser (sandboxed browser if you're using that method)
    2. In the search bar next to the msn icon type **Microsoftie** and hit enter, this will perform a bing search for the term.
