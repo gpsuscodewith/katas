@@ -1,21 +1,15 @@
-<h1 align="center">[Kata Title]</h1>
+<h1>[Kata Title]</h1>
 
 ### Duration: [Duration in minutes; max 15 minutes]
-### Participation target:
-- [ ] Individual Level
-- [ ] Partner Level
-- [ ] Individual Participant
-- [ ] Partner
-- [ ] Guided
 
 ### Prerequisites
 
-- Web Browser
-- Download software from: [https://someurl/software](https://someurl/software)
+- [pre-requisite 2]
+- [pre-requisite 2]
 
 ## Steps
 
-### [Step Section] 
+### [Step section title] 
 1. [Specific step]
 2. [Specific step]
 
@@ -31,10 +25,5 @@
    const SERVER_PORT = 1234;
    ```
 
-### Reflections
-
-[Update this section with post-session from the kata session participants]
-
-### Feedback
-
-[Update this section with any feedback on this kata]
+### Reflection
+[Prefined set of questions to ask upon execution of the Kata.]
