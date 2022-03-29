@@ -6,10 +6,10 @@ Welcome to Kata Training!
 
 **The Kata at its core, is to be repeated by a Practitioner until they no longer need the Kata to perform that task to achieve proficiency.**
 
-## Defining Kata training
+## Definitions
 To learn more, read [the full definition of the Kata practice](./docs/definition.md) for the purposes of upskilling.
 
-## Contributions
+## Authoring and contributions
 Are you interested in authoring one or more Katas?
 Read more: [Authoring / Contributing](./docs/authoring.md) 
 
