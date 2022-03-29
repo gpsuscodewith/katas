@@ -2,7 +2,7 @@
 
 Welcome to Kata Training! 
 
-**Definition**: A Kata is a set of pre-defined, unambiguous, repeatable steps that can be executed to gain efficiency and effectiveness at a specific task. 
+**Definition**: A Kata is a set of pre-defined, unambiguous, repeatable steps that can be executed to gain proficiency at a specific task. 
 
 ## Overview of a Kata
 A Kata is an exercise made up of:
