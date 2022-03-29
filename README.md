@@ -6,15 +6,20 @@ Welcome to Kata Training!
 
 **The Kata at its core, is to be repeated by a Practitioner until they no longer need the Kata to perform that task to achieve proficiency.**
 
-## Overview of a Kata
-A Kata is an exercise made up of:
+## Defining Kata training
+To learn more, read [the full definition of the Kata practice](./docs/definition.md) for the purposes of upskilling.
 
-1. A time window, with a maximum time of 15 minutes
-1. Structured sections of steps
-2. Each section is a set of steps that are ordered
-3. Every step is specific and terse
+## Contributions
+Are you interested in authoring one or more Katas?
+Read more: [Authoring / Contributing](./docs/authoring.md) 
 
-## More
-- [Full Definition](./docs/definition.md) 
+## Organizing a Kata session
+If you'd like to organize and run a Kata, authoring is not a requirement at all. Simply, follow the recommendations and guidance.
+
+Read more: [Organizing a Kata Session](./docs/organizing.md) 
+
+## Table of contents
+
+- [Definition](./docs/definition.md) 
 - [Authoring / Contributing](./docs/authoring.md) 
 - [Organizing a Kata Session](./docs/organizing.md) 
