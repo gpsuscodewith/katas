@@ -11,12 +11,11 @@ To learn more, read [the full definition of the Kata practice](./docs/definition
 
 ## Authoring and contributions
 Are you interested in authoring one or more Katas?
-Read more: [Authoring / Contributing](./docs/authoring.md) 
+<br />Read more: [Authoring / Contributing](./docs/authoring.md) 
 
 ## Organizing a Kata session
 If you'd like to organize and run a Kata, authoring is not a requirement at all. Simply, follow the recommendations and guidance.
-
-Read more: [Organizing a Kata Session](./docs/organizing.md) 
+<br />Read more: [Organizing a Kata Session](./docs/organizing.md) 
 
 ## Table of contents
 
