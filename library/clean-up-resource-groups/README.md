@@ -1,10 +1,10 @@
 <h1>Clean up Resource Groups in an Azure Subscription</h1>
 
 **Objective:** Quickly filter a set of resource groups, fetch the names, and delete them using the Azure CLI. 
-**Duration:** 5 minutes
+**Duration:** 3 minutes
 
 ### Guidance
-Do NOT copy any of the commands into the bash terminal, unless explicitly guided to do so.
+Do NOT copy any of the commands into the bash terminal, unless explicitly guided to do so. 
 
 ### Prerequisites
 
