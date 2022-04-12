@@ -10,7 +10,7 @@
 
 ### Prerequisites
 
-- Bash on linux and WSL/WSL2 or a Mac Shell
+- Bash on linux or WSL/WSL2 or a Mac Shell
 - Install or update Python 3 and pip on your system (3 mins)
 
    - For Mac:
@@ -41,7 +41,7 @@
    
 4. Install a site package with pip ``` pip install swnamer ```
    
-5. Test it by running some inline python3 that imports out site package.
+5. Test it by running some inline python3 that imports our site package.
    ``` 
    python3 -c "from swnamer import NameGenerator; generator = NameGenerator(lowercase=True, separator=\"_\"); print(generator.generate());"
    ```
