@@ -20,7 +20,7 @@
 
 2. Click on *...* to left of your photos or initials at the top right page, and click Cloud Shell.
 
-3. At the top of the cloud shell window select *Bash* from the drop-down menu if it is already selected.
+3. At the top of the cloud shell window select *Bash* from the drop-down menu if it isn't already selected.
 
 4. In the Cloud Shell window type ``` az -v ``` and hit enter to see the current version of Cloud Shell.
 
