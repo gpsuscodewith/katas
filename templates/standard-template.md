@@ -1,10 +1,10 @@
 ---
-title: Getting started with Azure Functions
-description: Take the first steps toward working with Azure Functions.
-author: craigshoemaker
-ms.topic: overview
+title: Kata title
+description: Kata description
+author: [github handle]
+ms.skillset: overview
 ms.date: 11/19/2020
-ms.author: cshoe
+ms.author: [github.handle]
 ---
 
 # [Kata Title]
@@ -27,6 +27,6 @@ ms.author: cshoe
    const SERVER_PORT = 1234;
    ```
 
-### Reflect
-- Reflect point 
-- Reflect point
+## Reflect
+- [Reflect point]
+- [Reflect point]
