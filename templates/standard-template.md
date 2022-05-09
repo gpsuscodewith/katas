@@ -3,6 +3,10 @@ title: Kata title
 description: Kata description
 author: [github handle]
 date: 11/19/2020
+parameters:
+ - configFileName: 'some-config-file.js'
+ - serverName: 'server port'
+ - serverPort: 12345
 ---
 
 # [Kata Title]
@@ -19,10 +23,10 @@ date: 11/19/2020
    ```
    some command here
    ```
-3. Add some configuration to `some-config-file.js`
+3. Add some configuration to `{{configFileName}}`
    ```js
-   const SERVER_NAME = 'SOME_SERVER';
-   const SERVER_PORT = 1234;
+   const SERVER_NAME = '{{serverName}}';
+   const SERVER_PORT = {{serverPort}};
    ```
 
 ## Reflect
