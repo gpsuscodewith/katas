@@ -1,7 +1,7 @@
 ---
 title: Kata title
 description: Kata description
-author: [github handle]
+author: github-handle
 date: 11/19/2020
 params:
 - configFileName: some-config-file.js
