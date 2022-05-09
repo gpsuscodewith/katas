@@ -3,10 +3,10 @@ title: Kata title
 description: Kata description
 author: [github handle]
 date: 11/19/2020
-parameters:
- - configFileName: 'some-config-file.js'
- - serverName: 'server port'
- - serverPort: 12345
+params:
+- configFileName: some-config-file.js
+- serverName: server port
+- serverPort: 12345
 ---
 
 # [Kata Title]
