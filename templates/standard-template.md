@@ -2,9 +2,7 @@
 title: Kata title
 description: Kata description
 author: [github handle]
-ms.skillset: overview
-ms.date: 11/19/2020
-ms.author: [github.handle]
+date: 11/19/2020
 ---
 
 # [Kata Title]
