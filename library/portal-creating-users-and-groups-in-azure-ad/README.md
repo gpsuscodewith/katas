@@ -1,5 +1,5 @@
 ---
-title: Creating Users and Security Groups in Azure AD
+title: Creating Users and Groups in Azure AD
 env: portal
 description: Use the Azure Portal to create a new user and a new security group in Azure Active Directory.
 author: MicrosoftCSA
