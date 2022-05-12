@@ -15,7 +15,7 @@ params:
 
 ### Add a user to a group in Azure Active Directory
 
-1. In the left-hand navigation pane of the Portal, click on Azure Active Directory.
+1. In the left-hand navigation menu, click on Azure Active Directory.
 2. In the Azure Active Directory blade, click on Groups.
 3. Select the {{group_name}} group.
 4. In the Group blade, click on + Add members.

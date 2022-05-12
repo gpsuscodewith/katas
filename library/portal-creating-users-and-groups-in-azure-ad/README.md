@@ -14,23 +14,24 @@ params:
 
 ## Steps
 
+### Create a user in Azure Active Directory
+
+1. In the left-hand navigation menu, click on Azure Active Directory.
+2. In the Azure Active Directory blade, click on Users.
+3. In the Users blade, click on + New user.
+4. In the Create user blade fill out:
+   - User name : {{user_name}}
+   - Name : {{user_full_name}}
+5. In the Password section, record the generated password or set one of your own.
+6. Click on Create.
+
 ### Create a group in Azure Active Directory
 
-1. In the left-hand navigation pane, click on Azure Active Directory.
+1. In the left-hand navigation menu, click on Azure Active Directory.
 2. In the Azure Active Directory blade, click on Groups.
 3. In the Groups blade, click on + New group.
 4. In the Create group blade fill out:
    - Group name : {{group_name}}
-5. Click on Create.
-
-### Create a user in Azure Active Directory
-
-1. In the left-hand navigation pane, click on Users.
-2. In the Users blade, click on + New user.
-3. In the Create user blade fill out:
-   - User name : {{user_name}}
-   - Name : {{user_full_name}}
-4. In the Password section, record the generated password or set one of your own.
 5. Click on Create.
 
 END
