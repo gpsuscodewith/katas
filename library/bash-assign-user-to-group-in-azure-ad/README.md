@@ -15,11 +15,11 @@ params:
 
 ### Add a user to a group in Azure Active Directory
 
-1. Now add that user to the group using a single command:
-
-   ```bash
+1. ```bash
    member_id=$(az ad user show --id {{user_id}} --query objectId --output tsv)
+   ```
 
+2. ```bash
    az ad group member add --group "{{group_display_name}}" \
                           --member-id $member_id
    ```
