@@ -1,34 +1,27 @@
 ---
 title: Kata title
-env: portal|bash|powershell
 description: Kata description
-author: [github handle]
+author: Your git hub handle here
 date: 11/19/2020
-params:
-- configFileName: some-config-file.js
-- serverName: server port
-- serverPort: 12345
+env: portal|bash|powershell
+dependsOn:
+- If dependsOn is empty remove this line, otherwise each entry should be in the below format.
+- the-folder-name-of-the-kata-you-depend-on
+parameters:
+- stringParameter: some-config-file.js
+- numericalParameter: 1234
+- booleanParameter: true|false
 ---
 
-# [Kata Title]
+## Setup
+
+1. A 'entity' named '{{stringParameter}}'.
 
 ## Steps
 
-### [Step section title] 
-1. [Specific step]
-2. [Specific step]
-
-### [Step Section Example] 
-1. **Fork** this katas repo here: [https://github.com/gpsuscodewith/katas/my-kata-project](https://github.com/gpsuscodewith/katas/my-kata-project)
-2. Run this command from your command prompt: 
-   ```
-   some command here
-   ```
-3. Add some configuration to `{{configFileName}}`
-   ```js
-   const SERVER_NAME = '{{serverName}}';
-   const SERVER_PORT = {{serverPort}};
-   ```
+### [Step title] 
+1. [Step action]
+2. [Step action]
 
 ## Reflect
 - [Reflect point]

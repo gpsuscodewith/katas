@@ -1,35 +1,29 @@
 ---
-title: Kata title
-env: portal|bash|powershell
-description: Kata description
-author: [github handle]
-date: 11/19/2020
+title: Create a VM in Azure
+description: Create a Virtual Machine in Azure
+author: MicrosoftCSA
+date: 5/19/2022
+env: portal
+dependsOn:
+- portal-working-with-resource-groups
 params:
-- configFileName: some-config-file.js
-- serverName: server port
-- serverPort: 12345
+- resourceGroupName: resourceGroupName
 ---
 
-# [Kata Title]
+## Setup
+
+1. A 'Resource group' named '{{resourceGroupName}}'.
 
 ## Steps
 
-### [Step section title] 
-1. [Specific step]
-2. [Specific step]
+### Create the Virtual Machine
 
-### [Step Section Example] 
-1. **Fork** this katas repo here: [https://github.com/gpsuscodewith/katas/my-kata-project](https://github.com/gpsuscodewith/katas/my-kata-project)
-2. Run this command from your command prompt: 
-   ```
-   some command here
-   ```
-3. Add some configuration to `{{configFileName}}`
-   ```js
-   const SERVER_NAME = '{{serverName}}';
-   const SERVER_PORT = {{serverPort}};
-   ```
+1. In the **Azure portal menu**, select 'Create a resource'.
+2. In the 'Search services and marketplace' bar, search for and select 'Virtual machine'.
+3. Select the 'Create' button.
+4. TODO
 
 ## Reflect
+
 - [Reflect point]
 - [Reflect point]
