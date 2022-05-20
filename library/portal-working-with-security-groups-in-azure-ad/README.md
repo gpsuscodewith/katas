@@ -19,22 +19,22 @@ parameters:
 
 ### Create a new Security group
 
-1. **Azure portal menu** --> select 'Azure Active Directory'.
-2. 'Azure Active Directory' navigation menu --> select 'Groups' from the 'Manage' section.
-3. 'All groups' blade --> select 'New group'.
-4. 'New Group' blade --> enter the following values:
+1. **Azure portal menu** --> Select 'Azure Active Directory'.
+2. 'Azure Active Directory' navigation menu --> Select 'Groups' from the 'Manage' section.
+3. 'All groups' blade --> Select 'New group'.
+4. 'New Group' blade --> Enter the following values:
    - Group name : {{securityGroupName}}
 5. Click on Create.
 
 ### Assign a user to a Security group
 
-1. **Azure portal menu** --> select 'Azure Active Directory'.
-2. 'Azure Active Directory' navigation menu --> select 'Groups' from the 'Manage' section.
-3. 'All groups' blade --> use the 'Search' bar to search for and select '{{securityGroupName}}'.
-4. 'Group' navigation menu --> select 'Members' from the 'Manage' section.
-5. 'Members' blade --> select 'Add members'.
-6. 'Add members' blade --> use the 'Search' bar to search for and select '{{userName}}'.
-7. 'Add members' blade --> select 'Select'.
+1. **Azure portal menu** --> Select 'Azure Active Directory'.
+2. 'Azure Active Directory' navigation menu --> Select 'Groups' from the 'Manage' section.
+3. 'All groups' blade --> Use the 'Search' bar to search for and select '{{securityGroupName}}'.
+4. 'Group' navigation menu --> Select 'Members' from the 'Manage' section.
+5. 'Members' blade --> Select 'Add members'.
+6. 'Add members' blade --> Use the 'Search' bar to search for and select '{{userName}}'.
+7. 'Add members' blade --> Select 'Select'.
 
 END
 

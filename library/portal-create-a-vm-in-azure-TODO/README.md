@@ -18,8 +18,8 @@ parameters:
 
 ### Create the Virtual Machine
 
-1. In the **Azure portal menu**, select 'Create a resource'.
-2. In the 'Search services and marketplace' bar, search for and select 'Virtual machine'.
+1. **Azure portal menu** --> Select 'Create a resource'.
+2. 'Search services and marketplace' --> Search for and select 'Virtual machine'.
 3. Select the 'Create' button.
 4. TODO
 
