@@ -1,11 +1,11 @@
 ---
 title: Working with Resource groups
-description: Create and delete a Resource group in the Azure Portal 
+description: Using the Azure Portal, create and delete a Resource group 
 author: MicrosoftCSA
 date: 5/19/2022
 env: portal
 dependsOn:
-params:
+parameters:
 - resourceGroupName: contosorg
 ---
 

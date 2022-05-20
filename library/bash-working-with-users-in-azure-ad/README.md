@@ -1,11 +1,11 @@
 ---
 title: Working with Users in Azure AD
-description: Use the Azure CLI to create an Azure Active Directory User.
+description: Using Azure Cloud Shell with bash, create and delete an Azure Active Directory User.
 author: MicrosoftCSA
-date: 5/19/2022
+date: 5/20/2022
 env: bash
 dependsOn:
-params:
+parameters:
 - userId: jsmith@contoso.onmicrosoft.com
 - userFullName: J. Smith
 - userPassword: MySecurePassword123!
@@ -19,6 +19,12 @@ params:
    az ad user create --display-name "{{userFullName}}" \ 
                      --password "{{userPassword}}" \
                      --user-principal-name "{{userId}}"
+   ```
+
+### Delete a user in Azure Active Directory
+
+1. ```bash
+   az ad user delete --id {{userId}}
    ```
 
 END

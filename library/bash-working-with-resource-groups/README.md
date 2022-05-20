@@ -1,11 +1,11 @@
 ---
 title: Working with Resource groups
-description: Use the Azuri CLI to create and delete a Resource group 
+description: Using Azure Cloud Shell with bash, create and delete a Resource group 
 author: MicrosoftCSA
-date: 5/19/2022
+date: 5/20/2022
 env: bash
 dependsOn:
-params:
+parameters:
 - resourceGroupName: contosorg
 ---
 
