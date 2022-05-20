@@ -5,7 +5,7 @@ author: MicrosoftCSA
 date: 5/19/2022
 env: bash
 dependsOn:
-params:
+parameters:
 - resourceGroupName: contosorg
 ---
 

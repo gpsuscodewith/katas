@@ -6,7 +6,7 @@ date: 5/19/2022
 env: bash
 dependsOn:
 - bash-working-with-users-in-azure-ad
-params:
+parameters:
 - userId: jsmith@contoso.onmicrosoft.com
 - securityGroupName: jsmithgroup
 ---
