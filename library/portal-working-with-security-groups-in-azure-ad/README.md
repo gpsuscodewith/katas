@@ -6,7 +6,7 @@ date: 5/19/2022
 env: portal
 dependsOn:
 - portal-working-with-users-in-azure-ad
-paramaters:
+parameters:
 - securityGroupName: jsmithgroup
 - userName: jsmith
 ---

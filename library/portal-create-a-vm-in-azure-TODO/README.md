@@ -6,7 +6,7 @@ date: 5/19/2022
 env: portal
 dependsOn:
 - portal-working-with-resource-groups
-params:
+parameters:
 - resourceGroupName: resourceGroupName
 ---
 
