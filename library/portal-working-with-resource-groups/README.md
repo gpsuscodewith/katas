@@ -13,7 +13,7 @@ parameters:
 
 ### Create a Resource group
 
-1. **Global search bar**, Search for and select 'Resource group' from the 'Marketplace' section.
+1. **Global search bar** --> Search for and select 'Resource group' from the 'Marketplace' section.
 2. 'Create a resource group' blade --> Enter the following values:
    - Resource group : {{resourceGroupName}}
 3. Select 'Review + create'.
@@ -21,10 +21,10 @@ parameters:
 
 ### Delete a Resource group
 
-1. **Azure portal menu** --> select 'Resource groups'.
-2. 'Resource groups' blade --> select '{{resourceGroupName}}'.
-3. 'Resource group' blade --> select 'Delete resource group'.
-4. 'Are you sure you want to delete "{{resourceGroupName}}"?' blade --> enter the following values:
+1. **Azure portal menu** --> Select 'Resource groups'.
+2. 'Resource groups' blade --> Select '{{resourceGroupName}}'.
+3. 'Resource group' blade --> Select 'Delete resource group'.
+4. 'Are you sure you want to delete "{{resourceGroupName}}"?' blade --> Enter the following values:
    - TYPE THE RESOURCE GROUP NAME : {{resourceGroupName}}
 5. Select 'Delete'.
 
