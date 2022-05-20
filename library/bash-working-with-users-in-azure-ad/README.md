@@ -4,7 +4,6 @@ description: Using Azure Cloud Shell with bash, create and delete an Azure Activ
 author: MicrosoftCSA
 date: 5/20/2022
 env: bash
-dependsOn:
 parameters:
 - userId: jsmith@contoso.onmicrosoft.com
 - userFullName: J. Smith
@@ -15,7 +14,9 @@ parameters:
 
 ### Create a user in Azure Active Directory
 
-1. ```bash
+1. Create '{{userFullName}}'.
+
+   ```bash
    az ad user create --display-name "{{userFullName}}" \ 
                      --password "{{userPassword}}" \
                      --user-principal-name "{{userId}}"
@@ -23,7 +24,9 @@ parameters:
 
 ### Delete a user in Azure Active Directory
 
-1. ```bash
+1. Delete {{userId}}.
+
+   ```bash
    az ad user delete --id {{userId}}
    ```
 

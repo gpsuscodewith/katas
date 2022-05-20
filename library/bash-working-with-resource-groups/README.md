@@ -4,7 +4,6 @@ description: Using Azure Cloud Shell with bash, create and delete a Resource gro
 author: MicrosoftCSA
 date: 5/20/2022
 env: bash
-dependsOn:
 parameters:
 - resourceGroupName: contosorg
 ---
@@ -13,14 +12,18 @@ parameters:
 
 ### Create a Resource group
 
-1. ```bash
+1. Create '{{resourceGroupName}}'.
+
+   ```bash
    az group create --name {{resourceGroupName}} \ 
                    --location eastus
    ```
 
 ### Delete a Resource group
 
-1. ```bash
+1. Delete '{{resourceGroupName}}'.
+
+   ```bash
    az group delete --name {{resourceGroupName}}
    ```
 
