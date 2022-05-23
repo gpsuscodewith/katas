@@ -48,8 +48,6 @@ parameters:
 
 END
 
-END
-
 ## Reflect
 
 - We added the virtual machine to a resource group and also selected a specific region, what ramifications could this have?
