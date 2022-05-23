@@ -22,13 +22,13 @@ parameters:
    - User name : {{userName}}
    - Name : {{userFullName}}
    - Initial password : {{userInitialPassword}}
-5. Select 'Create'.
+5. 'New user' blade --> Select 'Create'.
 
 ### Delete a user in Azure Active Directory
 
 1. **Azure portal menu** --> Select 'Azure Active Directory'.
 2. 'Azure Active Directory' navigation menu --> Select 'Users' from the 'Manage' section.
-3. 'All users' blade --> Use the 'Search users' bar to search for and select '{{userName}}'.
+3. 'All users' blade --> 'Search users' bar --> Search for and select '{{userName}}'.
 4. 'Profile' blade --> Select 'Delete'.
 5. 'Do you want to delete this user?' confirmation window --> Select 'Yes'.
 

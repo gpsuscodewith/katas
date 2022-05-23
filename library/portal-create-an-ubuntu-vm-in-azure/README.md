@@ -25,9 +25,9 @@ parameters:
 
 1. **Azure portal menu** --> Select 'Create a resource'.
 2. 'Search services and marketplace' --> Search for and select 'Virtual machine'.
-3. Select the 'Create' button.
+3. 'Virtual machine' blade --> Select the 'Create' button.
 
-### Enter 'Basic' information in the 'Create a vitual machine' blade
+### In the 'Create a vitual machine' blade
 
 - Resource group : {{resourceGroupName}}
 - Virtual machine name : {{virtualMachineName}}
@@ -38,13 +38,15 @@ parameters:
 
 ### Create the Virtual Machine
 
-1. Select 'Review + create'.
-2. Select 'Create'.
+1. 'Create a virtual machine' blade --> Select 'Review + create'.
+2. 'Create a virtual machine' blade --> Select 'Create'.
 
 ### Generate and store a new Key Pair
 
-1. Select 'Download private key pair and create resource'.
-2. Save the {{virtualMachineName}}_key.pem file to a safe secure location.
+1. 'Generate a new key pair' confirmation window --> Select 'Download private key pair and create resource'.
+2. '{{virtualMachineName}}_key.pem' file --> Save to a safe secure location.
+
+END
 
 ## Reflect
 

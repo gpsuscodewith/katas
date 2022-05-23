@@ -16,8 +16,8 @@ parameters:
 1. **Global search bar** --> Search for and select 'Resource group' from the 'Marketplace' section.
 2. 'Create a resource group' blade --> Enter the following values:
    - Resource group : {{resourceGroupName}}
-3. Select 'Review + create'.
-4. Select 'Create'.
+3. 'Create a resource group' --> Select 'Review + create'.
+4. 'Create a resource group' --> Select 'Create'.
 
 ### Delete a Resource group
 
@@ -26,7 +26,7 @@ parameters:
 3. 'Resource group' blade --> Select 'Delete resource group'.
 4. 'Are you sure you want to delete "{{resourceGroupName}}"?' blade --> Enter the following values:
    - TYPE THE RESOURCE GROUP NAME : {{resourceGroupName}}
-5. Select 'Delete'.
+5. 'Are you sure you want to delete "{{resourceGroupName}}"?' blade --> Select 'Delete'.
 
 END
 

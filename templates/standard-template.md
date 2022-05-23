@@ -15,7 +15,7 @@ parameters:
 
 ## Setup
 
-1. A 'entity' named '{{stringParameter}}'.
+1. An 'entity' named '{{stringParameter}}'.
 
 ## Steps
 

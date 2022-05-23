@@ -27,6 +27,8 @@ parameters:
    az group delete --name {{resourceGroupName}}
    ```
 
+END
+
 ## Reflect
 
 - Do you really want your resource group in eastus, maybe there is a closer geography location?
