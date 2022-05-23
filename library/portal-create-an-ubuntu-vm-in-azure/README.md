@@ -46,6 +46,8 @@ parameters:
 1. Select 'Download private key pair and create resource'.
 2. Save the {{virtualMachineName}}_key.pem file to a safe secure location.
 
+END
+
 ## Reflect
 
 - We added the virtual machine to a resource group and also selected a specific region, what ramifications could this have?
