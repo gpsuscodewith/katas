@@ -5,7 +5,7 @@ author: Your git hub handle here
 date: 11/19/2020
 env: portal|bash|powershell
 dependsOn:
-- If dependsOn is empty remove this line, otherwise each entry should be in the below format.
+- If dependsOn is empty remove dependsOn: also, otherwise each entry should be in the below format.
 - the-folder-name-of-the-kata-you-depend-on
 parameters:
 - stringParameter: some-config-file.js
@@ -13,7 +13,7 @@ parameters:
 - booleanParameter: true|false
 ---
 
-## Setup
+## Setup - Remove this section if you do not have a dependsOn meta-data entry
 
 1. An 'entity' named '{{stringParameter}}'.
 
