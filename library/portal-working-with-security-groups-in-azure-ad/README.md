@@ -17,28 +17,28 @@ parameters:
 
 ## Steps
 
-### Create a new Security group
+### Create a new Security group in Azure Active Directory
 
-1. **Azure portal menu** --> Select 'Azure Active Directory'.
-2. 'Azure Active Directory' navigation menu --> Select 'Groups' from the 'Manage' section.
-3. 'All groups' blade --> Select 'New group'.
+1. **Azure portal menu** --> Select 'Azure Active Directory'
+2. 'Azure Active Directory' navigation menu --> Select 'Groups' from the 'Manage' section
+3. 'All groups' blade --> Select 'New group'
 4. 'New Group' blade --> Enter the following values:
    - Group name : {{securityGroupName}}
-5. 'New Group' blade --> Select Create.
+5. 'New Group' blade --> Select Create
 
-### Assign a user to a Security group
+### Add an existing User to the new Security group in Azure Active Directory
 
-1. **Azure portal menu** --> Select 'Azure Active Directory'.
-2. 'Azure Active Directory' navigation menu --> Select 'Groups' from the 'Manage' section.
-3. 'All groups' blade --> 'Search' bar --> Search for and select '{{securityGroupName}}'.
-4. 'Group' navigation menu --> Select 'Members' from the 'Manage' section.
-5. 'Members' blade --> Select 'Add members'.
-6. 'Add members' blade --> 'Search' bar --> Search for and select '{{userName}}'.
-7. 'Add members' blade --> Select 'Select'.
+1. **Azure portal menu** --> Select 'Azure Active Directory'
+2. 'Azure Active Directory' navigation menu --> Select 'Groups' from the 'Manage' section
+3. 'All groups' blade --> 'Search' bar --> Search for and select '{{securityGroupName}}'
+4. 'Group' navigation menu --> Select 'Members' from the 'Manage' section
+5. 'Members' blade --> Select 'Add members'
+6. 'Add members' blade --> 'Search' bar --> Search for and select '{{userName}}'
+7. 'Add members' blade --> Select 'Select'
 
 END
 
 ## Reflect
 
 - How often do you create a Security group?
-- Do you normally use the **Azure portal menu** or do you search with the **Global search bar**
+- Do you normally use the **Azure portal menu** or do you search with the **Global search bar**?

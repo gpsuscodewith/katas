@@ -10,18 +10,18 @@ parameters:
 
 ## Steps
 
-### Create a Resource group
+### Create a new Resource group
 
-1. Create '{{resourceGroupName}}'.
+1. Use **az group create** to create the Resource group
 
    ```bash
    az group create --name {{resourceGroupName}} \ 
                    --location eastus
    ```
 
-### Delete a Resource group
+### Delete an existing Resource group
 
-1. Delete '{{resourceGroupName}}'.
+1. Use **az group delete** to delete the Resource group
 
    ```bash
    az group delete --name {{resourceGroupName}}

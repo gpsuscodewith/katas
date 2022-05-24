@@ -13,28 +13,28 @@ parameters:
 
 ## Setup
 
-1. An Active Directory 'User' named '{{userId}}'.
+1. An Active Directory 'User' named '{{userId}}'
 
 ## Steps
 
-### Create a Security group in Azure Active Directory
+### Create a new Security group in Azure Active Directory
 
-1. Create '{{securityGroupName}}'.
+1. Use **az ad group create** to create the Security group
 
    ```bash
    az ad group create --display-name "{{securityGroupName}}" \ 
                       --mail-nickname "{{securityGroupName}}"
    ```
 
-### Add a user to a Security group in Azure Active Directory
+### Add an existing User to the new Security group in Azure Active Directory
 
-1. Get member-id for '{{userId}}'.
+1. Use **az ad user show** to get the User 'objectId'
 
    ```bash
    objectId=$(az ad user show --id {{userId}} --query objectId --output tsv)
    ```
 
-2. Add '{{userId}}' using member-id to '{{securityGroupName}}'.
+2. Use **az ad group member add** to add the User to the Security group
 
    ```bash
    az ad group member add --group "{{securityGroupName}}" \

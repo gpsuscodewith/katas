@@ -12,9 +12,9 @@ parameters:
 
 ## Steps
 
-### Create a user in Azure Active Directory
+### Create a new User in Azure Active Directory
 
-1. Create '{{userFullName}}'.
+1. Use **az ad user create** to create the User
 
    ```bash
    az ad user create --display-name "{{userFullName}}" \ 
@@ -22,9 +22,9 @@ parameters:
                      --user-principal-name "{{userId}}"
    ```
 
-### Delete a user in Azure Active Directory
+### Delete an exiting user in Azure Active Directory
 
-1. Delete {{userId}}.
+1. Usee **az ad user delete** to delete the User
 
    ```bash
    az ad user delete --id {{userId}}
