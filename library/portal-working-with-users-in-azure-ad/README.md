@@ -1,8 +1,8 @@
 ---
 title: Working with Users in Azure AD
-description: Using the Azure Portal --> create and delete an Azure Active Directory User
+description: Using the Azure Portal, create and delete an Azure Active Directory User
 author: MicrosoftCSA
-date: 5/20/2022
+date: 5/24/2022
 env: portal
 dependsOn:
 parameters:

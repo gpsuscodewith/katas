@@ -1,11 +1,11 @@
 ---
 title: Create an Ubuntu VM in Azure
-description: Create an Ubuntu Virtual Machine in Azure
+description: Using Azure Cloud Shell with bash, create an Ubuntu Virtual Machine in Azure
 author: MicrosoftCSA
-date: 5/20/2022
-env: portal
+date: 5/24/2022
+env: bash
 dependsOn:
-- portal-working-with-resource-groups
+- bash-working-with-resource-groups
 parameters:
 - resourceGroupName: contosoResourceGroup
 - vmName: contosoVM
@@ -37,7 +37,7 @@ parameters:
                 --os-disk-delete-option {{vmOsDiskDeleteOption}} 
    ```
 
-## Securely back-up your SSH private key
+### Securely back-up your SSH private key
 
 1. Your private key is located here --> ~/.ssh/id_rsa
 

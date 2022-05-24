@@ -2,7 +2,7 @@
 title: Working with Users in Azure AD
 description: Using Azure Cloud Shell with bash, create and delete an Azure Active Directory User.
 author: MicrosoftCSA
-date: 5/20/2022
+date: 5/24/2022
 env: bash
 parameters:
 - userId: jsmith@contoso.onmicrosoft.com
@@ -24,7 +24,7 @@ parameters:
 
 ### Delete an exiting user in Azure Active Directory
 
-1. Usee **az ad user delete** to delete the User
+1. Use **az ad user delete** to delete the User
 
    ```bash
    az ad user delete --id {{userId}}

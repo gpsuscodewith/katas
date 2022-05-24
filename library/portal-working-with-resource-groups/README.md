@@ -2,7 +2,7 @@
 title: Working with Resource groups
 description: Using the Azure Portal, create and delete a Resource group 
 author: MicrosoftCSA
-date: 5/19/2022
+date: 5/24/2022
 env: portal
 dependsOn:
 parameters:

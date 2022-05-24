@@ -2,7 +2,7 @@
 title: Working with Resource groups
 description: Using Azure Cloud Shell with bash, create and delete a Resource group 
 author: MicrosoftCSA
-date: 5/20/2022
+date: 5/24/2022
 env: bash
 parameters:
 - resourceGroupName: contosoResourceGroup

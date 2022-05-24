@@ -1,8 +1,8 @@
 ---
 title: Working with Security groups in Azure AD
-description: Using Azure Cloud Shell with bash, create and delete an Azure Active Directory Security group
+description: Using the Azure Cloud Shell with bash, create a new Security group in Azure Active Directory and add an existing User to it
 author: MicrosoftCSA
-date: 5/20/2022
+date: 5/24/2022
 env: bash
 dependsOn:
 - bash-working-with-users-in-azure-ad

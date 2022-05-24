@@ -1,8 +1,8 @@
 ---
 title: Working with Security groups in Azure AD
-description: Using the Azure Portal --> create and delete an Azure Active Directory Security group
+description: Using the Azure Portal, create a new Security group in Azure Active Directory and add an existing User to it
 author: MicrosoftCSA
-date: 5/19/2022
+date: 5/24/2022
 env: portal
 dependsOn:
 - portal-working-with-users-in-azure-ad

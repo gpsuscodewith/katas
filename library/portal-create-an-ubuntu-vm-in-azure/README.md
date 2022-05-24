@@ -1,8 +1,8 @@
 ---
 title: Create an Ubuntu VM in Azure
-description: Create an Ubuntu Virtual Machine in Azure
+description: Using the Azure Portal, Create an Ubuntu Virtual Machine in Azure
 author: MicrosoftCSA
-date: 5/20/2022
+date: 5/24/2022
 env: portal
 dependsOn:
 - portal-working-with-resource-groups
