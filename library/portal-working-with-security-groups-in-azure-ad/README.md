@@ -7,7 +7,7 @@ env: portal
 dependsOn:
 - portal-working-with-users-in-azure-ad
 parameters:
-- securityGroupName: jsmithgroup
+- securityGroupName: contosoResourceGroup
 - userName: jsmith
 ---
 

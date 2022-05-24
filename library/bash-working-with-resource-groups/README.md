@@ -5,7 +5,7 @@ author: MicrosoftCSA
 date: 5/20/2022
 env: bash
 parameters:
-- resourceGroupName: contosorg
+- resourceGroupName: contosoResourceGroup
 ---
 
 ## Steps

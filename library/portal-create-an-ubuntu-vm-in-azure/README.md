@@ -7,7 +7,7 @@ env: portal
 dependsOn:
 - portal-working-with-resource-groups
 parameters:
-- resourceGroupName: resourceGroupName
+- resourceGroupName: contosoResourceGroup
 - virtualMachineName: contosoVM
 - vmRegion: (US) East US 2
 - vmAvailabilityOption: No infrastructure redundancy required

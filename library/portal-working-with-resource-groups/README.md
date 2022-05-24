@@ -6,7 +6,7 @@ date: 5/19/2022
 env: portal
 dependsOn:
 parameters:
-- resourceGroupName: contosorg
+- resourceGroupName: contosoResourceGroup
 ---
 
 ## Steps
