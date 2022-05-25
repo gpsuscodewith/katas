@@ -48,4 +48,4 @@ END
 ## Reflect
 
 - You get a text message indicating some problems with your VMs. You only have your tablet with you, would you still be able to access the Azure CLI using the tablet?
-- What would the outcome be if you used the tried setting the user name to 'admin' or 'root'?
+- What would the outcome be if you tried setting the user name to 'admin' or 'root'?
