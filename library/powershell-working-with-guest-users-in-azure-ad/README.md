@@ -9,10 +9,6 @@ parameters:
 - emailAddress: jsmith@contoso.onmicrosoft.com
 ---
 
-## Setup
-
-1. An Active Directory 'User' named '{{emailAddress}}' with the name of '{{userFullName}}'
-
 ## Steps
 
 ### Invite an external user to Azure AD
@@ -23,21 +19,21 @@ parameters:
    Connect-AzureAD
    ```
 
-2. Run **New-AzureADMSInvitation** to invite the user to the current Azure AD
+2. Run **New-AzureADMSInvitation** to invite the user to the current Azure AD, and store the result into a variable called newUser
 
    ```PowerShell
-   New-AzureADMSInvitation `
-      -InvitedUserEmailAddress {{emailAddress}} `
-      -InvitedUserDisplayName '{{userFullName}}' `
-      -InviteRedirectUrl https://myapps.microsoft.com 
+   $newUser = New-AzureADMSInvitation -InvitedUserEmailAddress {{emailAddress}} \
+      -InvitedUserDisplayName '{{userFullName}}' \
+      -InviteRedirectUrl https://myapps.microsoft.com \
+      -sendinvitationmessage $true 
    ```
 
 ### Remove an external user from Azure AD
 
-1. Run **Remove-AzureADUser** to remove the user from Azure AD
+1. Run **Remove-AzureADUser** to remove the user from Azure AD, using the Object ID from the user created earlier
 
    ```PowerShell
-   Remove-AzureADUser -ObjectId {{emailAddress}} 
+   Remove-AzureADUser -ObjectId $newuser.InvitedUser.Id
    ```
 
 END
