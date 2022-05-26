@@ -43,6 +43,7 @@ parameters:
                 --nic-delete-option {{vmNicOption}}
                 --license-type {{vmLicenseType}}
    ```
+
 END
 
 ## Reflect

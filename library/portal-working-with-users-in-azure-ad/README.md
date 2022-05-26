@@ -4,7 +4,6 @@ description: Using the Azure Portal, create and delete an Azure Active Directory
 author: MicrosoftCSA
 date: 5/24/2022
 env: portal
-dependsOn:
 parameters:
 - userName: jsmith
 - userFullName: J. Smith
