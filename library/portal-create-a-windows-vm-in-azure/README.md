@@ -45,6 +45,8 @@ parameters:
    - Username : {{vmAdminUser}}
    - Password : {{vmAdminPassword}}
    - Confirm Password : {{vmAdminPassword}}
+6. 'Create a virtual machine' blade --> 'Management' section --> Enter the following values:
+   - Boot diagnostics : {{vmBootDiag}}
 
 ### Create the Virtual Machine
 
