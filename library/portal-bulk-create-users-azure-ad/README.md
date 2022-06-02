@@ -4,7 +4,6 @@ description: Using the Azure Portal, bulk create user accounts
 author: indranil-dutta
 date: 6-2-2022
 env: portal
-dependsOn:
 parameters:
 - bulkUserDisplayName1: K. Smith
 - bulkUserUPN1: ksmith
@@ -14,7 +13,6 @@ parameters:
 - bulkUserDisplayName3: M. Smith
 - bulkUserUPN3: msmith
 - bulkUserBlockSignIn: No
-
 ---
 
 ## Steps
@@ -29,7 +27,7 @@ parameters:
 
 ### Add an entry to the 'UserCreateTemplate.csv' file for {{bulkUserDisplayName1}}
 
-1. 'UserCreateTemplate.csv' file --> --> Enter the following values:
+1. 'UserCreateTemplate.csv' file --> Add a new row for '{{bulkUserDisplay1}}' --> Enter the following values:
    - Name [displayName] Required: {{bulkUserDisplayName1}}
    - User name [userPrincipalName] Required: {{bulkUserUPN1}}
    - initial password: {{bulkUserInitialPassword}}
@@ -37,7 +35,7 @@ parameters:
 
 ### Add an entry to the 'UserCreateTemplate.csv' file for {{bulkUserDisplayName2}}
 
-1. 'UserCreateTemplate.csv' file --> --> Enter the following values:
+1. 'UserCreateTemplate.csv' file --> Add a new row for '{{bulkUserDisplay2}}' --> Enter the following values:
    - Name [displayName] Required: {{bulkUserDisplayName2}}
    - User name [userPrincipalName] Required: {{bulkUserUPN2}}
    - initial password: {{bulkUserInitialPassword}}
@@ -45,7 +43,7 @@ parameters:
 
 ### Add an entry to the 'UserCreateTemplate.csv' file for {{bulkUserDisplayName3}}
 
-1. 'UserCreateTemplate.csv' file --> --> Enter the following values:
+1. 'UserCreateTemplate.csv' file --> Add a new row for '{{bulkUserDisplay3}}' --> Enter the following values:
    - Name [displayName] Required: {{bulkUserDisplayName3}}
    - User name [userPrincipalName] Required: {{bulkUserUPN3}}
    - initial password: {{bulkUserInitialPassword}}
