@@ -54,7 +54,7 @@ parameters:
 1. "Bulk Create User" blade --> select "Upload your csv file"
 2. From secure location --> select "UserCreateTemplate.csv' file 
 
-## Check Status of bulk user create operation
+### Check Status of bulk user create operation
 
 1. 'Azure Active Directory' navigation menu --> Select 'Users' from the 'Manage' section
 2. 'Activity' blade --> Select 'Bulk Operations results'
