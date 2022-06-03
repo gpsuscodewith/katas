@@ -6,12 +6,13 @@ date: 6/02/2022
 env: portal
 dependsOn:
 - portal-create-a-windows-vm-in-azure
+- portal-working-with-users-in-azure-ad
+- bash-working-with-users-in-azure-ad
 parameters:
 - virtualMachineName: contosoVM
 - vmAdminUser: azureuser
 - vmAdminPassword: SecurePassword123!
 - userName: jsmith
-- azureActiveDirectoryTenant: TENANT NAME NEEDED
 - userInitialPassword: SecurePassword123!
 
 ---
@@ -19,6 +20,7 @@ parameters:
 ## Setup
 
 1. A 'Azure VM' named '{{virtualMachineName}}'
+2. Azure Active Directory 'Primary domain' recorded
 
 ## Steps
 
@@ -45,7 +47,7 @@ parameters:
 2. From 'Settings' select 'Account' -->  'Access work or school' -> 'Connect'
 3. From the Pop-up select 'Join this machine to Azure Active Directory'
 4. Enter the following values
-   - Username : {{userName}}@{{azureActiveDirectoryTenant}}
+   - Username : {{userName}}@"Primary Domain"
    - Password : {{userInitalPassword}}
 5. Select 'Connect --> Join after verifying the correct organization
 6. Select 'Done' to complete the process
