@@ -15,13 +15,18 @@ parameters:
 ### Create a new user in Azure Active Directory
 
 1. **Azure portal menu** --> Select 'Azure Active Directory'
-2. 'Azure Active Directory' navigation menu --> Select 'Users' from the 'Manage' section
-3. 'All users' blade --> Select 'New user'
-4. 'New user' blade --> Enter the following values:
+2. 'Overview' blade --> Make a note of 'Primary domain' from the 'Basic information' section
+   ```markdown
+   ✏️ 'Primary domain' occasionally needs to be specified rather than selected
+      Example : jsmith@**myowndomainname.onmicrosoft.com**
+   ```
+3. 'Azure Active Directory' navigation menu --> Select 'Users' from the 'Manage' section
+4. 'All users' blade --> Select 'New user'
+5. 'New user' blade --> Enter the following values:
    - User name : {{userName}}
    - Name : {{userFullName}}
    - Initial password : {{userInitialPassword}}
-5. 'New user' blade --> Select 'Create'
+6. 'New user' blade --> Select 'Create'
 
 ### Delete an existing User in Azure Active Directory
 
