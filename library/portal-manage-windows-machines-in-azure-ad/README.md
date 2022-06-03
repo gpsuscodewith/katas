@@ -13,7 +13,6 @@ parameters:
 - vmAdminPassword: SecurePassword123!
 - userName: jsmith
 - userInitialPassword: SecurePassword456!
-
 ---
 
 ## Setup
