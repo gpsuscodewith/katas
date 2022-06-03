@@ -6,7 +6,7 @@ date: 5/25/2022
 env: powershell
 parameters:
 - userFullName: J. Smith
-- emailAddress: jsmith@contoso.onmicrosoft.com
+- emailAddress: jsmith@contoso.com
 ---
 
 ## Steps

@@ -4,16 +4,22 @@ description: Using the Azure Portal, bulk create user accounts
 author: indranil-dutta
 date: 6-2-2022
 env: portal
+dependsOn:
+- portal-working-with-users-in-azure-ad
 parameters:
 - bulkUserDisplayName1: K. Smith
-- bulkUserUPN1: ksmith
+- bulkUserAlias1: ksmith
 - bulkUserInitialPassword: SecurePassword123!
 - bulkUserDisplayName2: L. Smith
-- bulkUserUPN2: lsmith
+- bulkUserAlias2: lsmith
 - bulkUserDisplayName3: M. Smith
-- bulkUserUPN3: msmith
+- bulkUserAlias3: msmith
 - bulkUserBlockSignIn: No
 ---
+
+## Setup
+
+1. You must know your Users Azure Active Directory 'Primary domain'
 
 ## Steps
 
@@ -29,7 +35,7 @@ parameters:
 
 1. 'UserCreateTemplate.csv' file --> Add a new row for '{{bulkUserDisplay1}}' --> Enter the following values:
    - Name [displayName] Required: {{bulkUserDisplayName1}}
-   - User name [userPrincipalName] Required: {{bulkUserUPN1}}
+   - User name [userPrincipalName] Required: {{bulkUserAlias1}}@The Users Azure Active Directory 'Primary domain'
    - initial password: {{bulkUserInitialPassword}}
    - Block sign in (Yes/No) [accountEnabled] Required: No
 
@@ -37,7 +43,7 @@ parameters:
 
 1. 'UserCreateTemplate.csv' file --> Add a new row for '{{bulkUserDisplay2}}' --> Enter the following values:
    - Name [displayName] Required: {{bulkUserDisplayName2}}
-   - User name [userPrincipalName] Required: {{bulkUserUPN2}}
+   - User name [userPrincipalName] Required: {{bulkUserAlias2}}@The Users Azure Active Directory 'Primary domain'
    - initial password: {{bulkUserInitialPassword}}
    - Block sign in (Yes/No) [accountEnabled] Required: No
 
@@ -45,7 +51,7 @@ parameters:
 
 1. 'UserCreateTemplate.csv' file --> Add a new row for '{{bulkUserDisplay3}}' --> Enter the following values:
    - Name [displayName] Required: {{bulkUserDisplayName3}}
-   - User name [userPrincipalName] Required: {{bulkUserUPN3}}
+   - User name [userPrincipalName] Required: {{bulkUserAlias3}}@The Users Azure Active Directory 'Primary domain'
    - initial password: {{bulkUserInitialPassword}}
    - Block sign in (Yes/No) [accountEnabled] Required: No
 

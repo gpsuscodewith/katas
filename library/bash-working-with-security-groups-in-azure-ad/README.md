@@ -7,13 +7,14 @@ env: bash
 dependsOn:
 - bash-working-with-users-in-azure-ad
 parameters:
-- userId: jsmith@contoso.onmicrosoft.com
+- userId: jsmith
 - securityGroupName: contosoResourceGroup
 ---
 
 ## Setup
 
 1. An Active Directory 'User' named '{{userId}}'
+2. A variable named 'pd' containing the users 'Primary domain'
 
 ## Steps
 
@@ -31,7 +32,7 @@ parameters:
 1. Use **az ad user show** to get the User 'objectId'
 
    ```bash
-   objectId=$(az ad user show --id {{userId}} --query objectId --output tsv)
+   objectId=$(az ad user show --id "{{userId}}@$pd" --query objectId --output tsv)
    ```
 
 2. Use **az ad group member add** to add the User to the Security group

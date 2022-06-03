@@ -25,7 +25,7 @@ parameters:
    ```bash
    az ad user create --display-name "{{userFullName}}" \ 
                      --password "{{userPassword}}" \
-                     --user-principal-name "{{userId}}@"$pd
+                     --user-principal-name "{{userId}}@$pd"
    ```
 
 ### Delete an exiting user in Azure Active Directory
@@ -33,7 +33,7 @@ parameters:
 1. Use **az ad user delete** to delete the User
 
    ```bash
-   az ad user delete --id {{userId}}
+   az ad user delete --id "{{userId}}@$pd"
    ```
 
 END
