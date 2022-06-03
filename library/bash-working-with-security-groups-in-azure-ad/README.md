@@ -8,7 +8,7 @@ dependsOn:
 - bash-working-with-users-in-azure-ad
 parameters:
 - userId: jsmith
-- securityGroupName: contosoResourceGroup
+- securityGroupName: contosoSecurityGroup
 ---
 
 ## Setup

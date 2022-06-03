@@ -6,13 +6,15 @@ date: 6/03/2022
 env: portal
 dependsOn:
 - portal-working-with-users-in-azure-ad
-- bash-working-with-users-in-azure-ad
 parameters:
 - userName: jsmith
 - userInitialPassword: SecurePassword123!
-- userNewPassword: 123!SecurePassword
-- securityGroupName: contosoResourceGroup
+- securityGroupName: contosoSecurityGroup
 ---
+
+## Setup
+
+1. You must know your Users Azure Active Directory 'Primary domain'
 
 ## Steps
 
@@ -37,15 +39,15 @@ parameters:
 
 1. Open a new browser windows in InPrivate or incognito mode and navigate to aks.ms/ssprsetup
 2. Sign in with the following information
-   - email address : {{username}}@'Primary Domain'
+   - email address : {{userName}}@The Users Azure Active Directory 'Primary domain'
    - password : {{userInitialPassword}}
 3. Insert your mobile phone number and personal email address for the recovery options
 4. Once finished, select the button marked 'Looks good' and close the browser window
 5. Open a new browser window in InPrivate or incognito mode, and browse to https://aka.ms/sspr
 6. Enter the email address as followed
-   - email or username : {{username}}@'Primary Domain'
+   - email or username : {{userName}}@The Users Azure Active Directory 'Primary domain'
    - Enter the characters for the CAPTCHA
-7. Follow the verification steps to reset {{username}}'s password
+7. Follow the verification steps to reset {{userName}}'s password
 
 END
 
