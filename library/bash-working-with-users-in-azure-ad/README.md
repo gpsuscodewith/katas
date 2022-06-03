@@ -16,7 +16,7 @@ parameters:
 
 1. Use **az rest** to get the 'Primary domain' from the Graph API
    ```bash
-   # ✏️ 'Primary domain' is the portion after the @ on the User Principal Name (UPN)
+   ✏️ 'Primary domain' is the portion after the @ on the User Principal Name (UPN)
    pd=$(az rest --url https://graph.microsoft.com/v1.0/domains --query 'value[?isDefault].id' -o tsv)
    ```
 
