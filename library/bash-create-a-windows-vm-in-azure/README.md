@@ -1,6 +1,6 @@
 ---
-title: Create an Windows VM in Azure
-description: Using Azure Cloud Shell with bash, create an Windows Virtual Machine in Azure
+title: Create a Windows VM in Azure
+description: Using Azure Cloud Shell with bash, create a Windows Virtual Machine in Azure
 author: travishankins
 date: 5/25/2022
 env: bash
@@ -43,6 +43,7 @@ parameters:
                 --nic-delete-option {{vmNicOption}}
                 --license-type {{vmLicenseType}}
    ```
+
 END
 
 ## Reflect

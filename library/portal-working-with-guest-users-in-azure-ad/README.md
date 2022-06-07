@@ -5,7 +5,7 @@ author: bhitney
 date: 5/25/2022
 env: portal
 dependsOn:
-  - portal-working-with-users-in-azure-ad
+- portal-working-with-users-in-azure-ad
 parameters:
 - emailAddress: jsmith@contoso.com
 ---

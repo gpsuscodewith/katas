@@ -13,6 +13,10 @@ parameters:
 - userCompany: Contoso
 ---
 
+## Setup
+
+1. An Active Directory 'User' named '{{userName}}'.
+
 ## Steps
 
 ### Update an existing user in Azure Active Directory
