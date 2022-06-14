@@ -1,9 +1,12 @@
 ---
 title: Managing a Windows VM in Azure
 description: Using the Azure Portal, Manage a Windows Virtual Machine in Azure
-author: travishankins
 date: 6/02/2022
-env: portal
+tags:
+- name: travishankins
+  type: author
+- name: portal
+  type: env
 dependsOn:
 - portal-create-a-windows-vm-in-azure
 - portal-working-with-users-in-azure-ad

@@ -1,9 +1,12 @@
 ---
 title: Create a Windows VM in Azure
 description: Using the Azure Portal, Create a Windows Virtual Machine in Azure
-author: travishankins
 date: 5/25/2022
-env: portal
+tags:
+- name: travishankins
+  type: author
+- name: portal
+  type: env
 dependsOn:
 - portal-working-with-resource-groups
 parameters:

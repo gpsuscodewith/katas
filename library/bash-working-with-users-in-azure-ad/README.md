@@ -1,9 +1,12 @@
 ---
 title: Working with Users in Azure AD
 description: Using Azure Cloud Shell with bash, create and delete an Azure Active Directory User.
-author: MicrosoftCSA
 date: 5/24/2022
-env: bash
+tags:
+- name: MicrosoftCSA
+  type: author
+- name: bash
+  type: env
 parameters:
 - userId: jsmith
 - userFullName: J. Smith

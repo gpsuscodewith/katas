@@ -1,9 +1,12 @@
 ---
 title: Modifying Groups in Azure AD
 description: NOT WORKING - Using bash to modify an existing Security group in Azure Active Directory and update its description
-author: UtahITPro
 date: 6/7/2022
-env: bash
+tags:
+- name: UtahITPro
+  type: author
+- name: bash
+  type: env
 dependsOn:
 - bash-working-with-security-groups-in-azure-ad
 parameters:

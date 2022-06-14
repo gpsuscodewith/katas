@@ -1,9 +1,12 @@
 ---
 title: Modifying Groups in Azure AD
 description: Using the Azure Portal, modify an existing Security group in Azure Active Directory and update its description
-author: UtahITPro
 date: 5/25/2022
-env: portal
+tags:
+- name: UtahITPro
+  type: author
+- name: portal
+  type: env
 dependsOn:
 - portal-working-with-security-groups-in-azure-ad
 parameters:

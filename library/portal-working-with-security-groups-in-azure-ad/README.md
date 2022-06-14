@@ -1,9 +1,12 @@
 ---
 title: Working with Security groups in Azure AD
 description: Using the Azure Portal, create a new Security group in Azure Active Directory and add an existing User to it
-author: MicrosoftCSA
 date: 5/24/2022
-env: portal
+tags:
+- name: MicrosoftCSA
+  type: author
+- name: portal
+  type: env
 dependsOn:
 - portal-working-with-users-in-azure-ad
 parameters:

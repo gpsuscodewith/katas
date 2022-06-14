@@ -1,27 +1,22 @@
 ---
-title: Create a Ubuntu VM in Azure
-description: Using Azure Cloud Shell with bash, create a Ubuntu Virtual Machine in Azure
-date: 5/24/2022
+title: Managing Ubuntu Virtual Machines with Azure AD
+description: NOT WORKING - Using the Azure Portal, Azure AD join and manage an Ubuntu Virtual Machine
+date: 5/26/2022
 tags:
 - name: MicrosoftCSA
   type: author
-- name: bash
+- name: portal
   type: env
 dependsOn:
-- bash-working-with-resource-groups
+- portal-create-a-ubuntu-vm-in-azure
 parameters:
 - resourceGroupName: contosoResourceGroup
 - vmName: contosoVM
-- vmImage: canonical:0001-com-ubuntu-server-focal:20_04-lts-gen2:latest
-- vmLocation: eastus2
-- vmSize: Standard_DS1_v2
-- vmAdminUser: azureuser
-- vmOsDiskDeleteOption: Delete
 ---
 
 ## Setup
 
-1. A 'Resource group' named '{{resourceGroupName}}'
+1. A Ubuntu 'Virtual Machine' named '{{vmName}}'
 
 ## Steps
 

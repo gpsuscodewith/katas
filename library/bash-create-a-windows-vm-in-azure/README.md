@@ -1,9 +1,12 @@
 ---
 title: Create a Windows VM in Azure
 description: Using Azure Cloud Shell with bash, create a Windows Virtual Machine in Azure
-author: travishankins
 date: 5/25/2022
-env: bash
+tags:
+- name: travishankins
+  type: author
+- name: bash
+  type: env
 dependsOn:
 - bash-working-with-resource-groups
 parameters:
