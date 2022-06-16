@@ -3,10 +3,10 @@ title: Managing Ubuntu Virtual Machines with Azure AD
 description: NOT WORKING - Using the Azure Portal, Azure AD join and manage an Ubuntu Virtual Machine
 date: 5/26/2022
 tags:
-- name: MicrosoftCSA
-  type: author
-- name: portal
-  type: env
+- value: MicrosoftCSA
+  name: author
+- value: portal
+  name: env
 dependsOn:
 - portal-create-a-ubuntu-vm-in-azure
 parameters:

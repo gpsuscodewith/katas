@@ -3,10 +3,10 @@ title: Working with Resource groups
 description: Using the Azure Portal, create and delete a Resource group 
 date: 5/24/2022
 tags:
-- name: MicrosoftCSA
-  type: author
-- name: portal
-  type: env
+- value: MicrosoftCSA
+  name: author
+- value: portal
+  name: env
 parameters:
 - resourceGroupName: contosoResourceGroup
 ---

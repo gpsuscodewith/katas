@@ -3,10 +3,10 @@ title: Create a Windows VM in Azure
 description: Using Azure Cloud Shell with bash, create a Windows Virtual Machine in Azure
 date: 5/25/2022
 tags:
-- name: travishankins
-  type: author
-- name: bash
-  type: env
+- value: travishankins
+  name: author
+- value: bash
+  name: env
 dependsOn:
 - bash-working-with-resource-groups
 parameters:
@@ -20,7 +20,7 @@ parameters:
 - vmPublicIP: Standard
 - vmOsDiskDeleteOption: Delete
 - vmNicOption: Delete
-- vmLicenseType: Windows_Client
+- vmLicensename: Windows_Client
 ---
 
 ## Setup

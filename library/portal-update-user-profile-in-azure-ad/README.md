@@ -3,10 +3,10 @@ title: Update a user's profile information using Azure Active Directory
 description: Using the Azure Portal, update an Azure Active Directory user
 date: 5/26/2022
 tags:
-- name: travishankins
-  type: author
-- name: portal
-  type: env
+- value: travishankins
+  name: author
+- value: portal
+  name: env
 dependsOn:
 - portal-working-with-users-in-azure-ad
 parameters:

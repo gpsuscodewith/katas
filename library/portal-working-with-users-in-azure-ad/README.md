@@ -3,10 +3,10 @@ title: Working with Users in Azure AD
 description: Using the Azure Portal, create and delete an Azure Active Directory User
 date: 5/24/2022
 tags:
-- name: MicrosoftCSA
-  type: author
-- name: portal
-  type: env
+- value: MicrosoftCSA
+  name: author
+- value: portal
+  name: env
 parameters:
 - userName: jsmith
 - userFullName: J. Smith

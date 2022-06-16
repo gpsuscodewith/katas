@@ -3,10 +3,10 @@ title: Bulk create users in Azure Active Directory
 description: Using the Azure Portal, bulk create user accounts
 date: 6-2-2022
 tags:
-- name: indranil-dutta
-  type: author
-- name: portal
-  type: env
+- value: indranil-dutta
+  name: author
+- value: portal
+  name: env
 dependsOn:
 - portal-working-with-users-in-azure-ad
 parameters:

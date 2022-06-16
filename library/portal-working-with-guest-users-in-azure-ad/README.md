@@ -3,10 +3,10 @@ title: Working with Guest Users in Azure AD
 description: Using the Azure Portal, create and delete an Azure Active Directory Guest User
 date: 5/25/2022
 tags:
-- name: bhitney
-  type: author
-- name: portal
-  type: env
+- value: bhitney
+  name: author
+- value: portal
+  name: env
 dependsOn:
 - portal-working-with-users-in-azure-ad
 parameters:

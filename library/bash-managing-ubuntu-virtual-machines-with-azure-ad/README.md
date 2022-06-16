@@ -3,10 +3,10 @@ title: Managing Ubuntu Virtual Machines with Azure AD
 description: NOT WORKING - Using Azure Cloud Shell with bash, Azure AD join and manage an Ubuntu Virtual Machine
 date: 5/26/2022
 tags:
-- name: MicrosoftCSA
-  type: author
-- name: bash
-  type: env
+- value: MicrosoftCSA
+  name: author
+- value: bash
+  name: env
 dependsOn:
 - bash-create-a-ubuntu-vm-in-azure
 - bash-working-with-users-in-azure-ad

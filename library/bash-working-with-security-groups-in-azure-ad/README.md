@@ -3,10 +3,10 @@ title: Working with Security groups in Azure AD
 description: Using the Azure Cloud Shell with bash, create a new Security group in Azure Active Directory and add an existing User to it
 date: 5/24/2022
 tags:
-- name: MicrosoftCSA
-  type: author
-- name: bash
-  type: env
+- value: MicrosoftCSA
+  name: author
+- value: bash
+  name: env
 dependsOn:
 - bash-working-with-users-in-azure-ad
 parameters:

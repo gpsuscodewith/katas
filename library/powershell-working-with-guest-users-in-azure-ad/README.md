@@ -3,10 +3,10 @@ title: Working with Guest Users in Azure AD
 description: Using Azure Cloud Shell with PowerShell, add an Azure Active Directory Guest User
 date: 5/25/2022
 tags:
-- name: bhitney
-  type: author
-- name: powershell
-  type: env
+- value: bhitney
+  name: author
+- value: powershell
+  name: env
 parameters:
 - userFullName: J. Smith
 - emailAddress: jsmith@contoso.com

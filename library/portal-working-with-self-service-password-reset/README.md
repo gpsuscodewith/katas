@@ -3,10 +3,10 @@ title: Working with Azure AD Self Service Password Reset
 description: Using the Azure Portal, setup Azure Active Directory Self Service Password Reset
 date: 6/03/2022
 tags:
-- name: travishankins
-  type: author
-- name: portal
-  type: env
+- value: travishankins
+  name: author
+- value: portal
+  name: env
 dependsOn:
 - portal-working-with-users-in-azure-ad
 parameters:

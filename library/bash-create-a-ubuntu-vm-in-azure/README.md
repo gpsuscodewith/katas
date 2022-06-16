@@ -3,10 +3,10 @@ title: Create a Ubuntu VM in Azure
 description: Using Azure Cloud Shell with bash, create a Ubuntu Virtual Machine in Azure
 date: 5/24/2022
 tags:
-- name: MicrosoftCSA
-  type: author
-- name: bash
-  type: env
+- value: MicrosoftCSA
+  name: author
+- value: bash
+  name: env
 dependsOn:
 - bash-working-with-resource-groups
 parameters:
