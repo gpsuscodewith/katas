@@ -35,7 +35,7 @@ parameters:
 1. Use **az ad user show** to get the User 'objectId'
 
    ```bash
-   objectId=$(az ad user show --id "{{userId}}@$pd" --query objectId --output tsv)
+   objectId=$(az ad user show --id "{{userId}}@$pd" --query id --output tsv)
    ```
 
 2. Use **az ad group member add** to add the User to the Security group
